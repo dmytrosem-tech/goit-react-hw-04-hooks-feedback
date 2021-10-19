@@ -1,9 +1,6 @@
-function App() {
-  return (
-    <div className="App">
-      <p>Lol</p>
-    </div>
-  );
-}
+import "./index.css";
+import Title from "./Components/Title";
 
-export default App;
+export default function App() {
+  return <Title />;
+}
